@@ -1,10 +1,10 @@
 function App() {
   return (
     <div>
-      <h1>Linkle</h1>
-      <p>Making new connections starts here.</p>
+      <h1>Welcome to Linkle</h1>
+      <p>Connecting people worldwide 🌍</p>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
