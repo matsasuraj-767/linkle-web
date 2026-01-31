@@ -1,1 +1,43 @@
 /* App-level styles */
+body {
+  background-color: #f0f8ff;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 16px 32px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links span {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background-color 0.2s, color 0.2s;
+  transition: all 0.2s ease;
+}
+
+.nav-links span:hover {
+  background-color: #0077ff;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+

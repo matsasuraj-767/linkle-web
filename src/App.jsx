@@ -1,10 +1,10 @@
+import "./App.css";
+import Home from "./pages/Home";
+
 function App() {
   return (
-    <div>
-      <h1>Welcome to Linkle</h1>
-      <p>Connecting people worldwide 🌍</p>
-    </div>
-  )
+    <Home />
+  );
 }
 
-export default App
+export default App;
