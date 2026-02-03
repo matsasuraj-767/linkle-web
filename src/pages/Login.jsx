@@ -1,10 +1,5 @@
 function Login() {
-  return (
-    <div className="page">
-      <h1>Login</h1>
-      <p>Login form will come here</p>
-    </div>
-  );
+  return <h2>Login Page</h2>;
 }
 
 export default Login;

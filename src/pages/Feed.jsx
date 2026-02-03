@@ -1,10 +1,5 @@
 function Feed() {
-  return (
-    <div className="page">
-      <h1>Feed</h1>
-      <p>Feedform will come here</p>
-    </div>
-  );
+  return <h2>Feed Page</h2>;
 }
 
 export default Feed;
